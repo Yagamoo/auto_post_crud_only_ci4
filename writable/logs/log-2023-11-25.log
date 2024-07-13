@@ -1,0 +1,269 @@
+CRITICAL - 2023-11-25 06:21:10 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\dashboard.php on line 93.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\Posting.php(39): view('admin/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:21:25 --> Attempt to read property "id_posting" on array
+in APPPATH\Views\admin\dashboard.php on line 92.
+ 1 APPPATH\Views\admin\dashboard.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_posting" on array', 'C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\dashboard.php', 92)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Posting.php(39): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:21:56 --> Attempt to read property "id_posting" on array
+in APPPATH\Views\admin\dashboard.php on line 92.
+ 1 APPPATH\Views\admin\dashboard.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_posting" on array', 'C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\dashboard.php', 92)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Posting.php(39): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:21:57 --> Attempt to read property "id_posting" on array
+in APPPATH\Views\admin\dashboard.php on line 92.
+ 1 APPPATH\Views\admin\dashboard.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_posting" on array', 'C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\dashboard.php', 92)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Posting.php(39): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:23:08 --> Undefined variable $detail
+in APPPATH\Views\admin\dashboard.php on line 120.
+ 1 APPPATH\Views\admin\dashboard.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detail', 'C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\dashboard.php', 120)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Posting.php(39): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:25:02 --> Undefined variable $admin
+in APPPATH\Views\admin\form.php on line 62.
+ 1 APPPATH\Views\admin\form.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 5 APPPATH\Controllers\Posting.php(133): view('admin/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:27:03 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Posting.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:31:00 --> Too few arguments to function App\Controllers\Posting::update(), 0 passed in C:\xampp\htdocs\web-uas\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\Posting.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:31:12 --> Too few arguments to function App\Controllers\Posting::update(), 0 passed in C:\xampp\htdocs\web-uas\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Posting.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:31:30 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Posting.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:31:44 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Posting.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:31:45 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Posting.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:31:49 --> Undefined variable $admin
+in APPPATH\Views\admin\form.php on line 62.
+ 1 APPPATH\Views\admin\form.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 5 APPPATH\Controllers\Posting.php(133): view('admin/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:33:34 --> Undefined variable $default_admin
+in APPPATH\Controllers\Posting.php on line 122.
+ 1 APPPATH\Controllers\Posting.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default_admin', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:33:45 --> Undefined variable $admin
+in APPPATH\Views\admin\form.php on line 62.
+ 1 APPPATH\Views\admin\form.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 5 APPPATH\Controllers\Posting.php(133): view('admin/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:33:56 --> Undefined variable $admin
+in APPPATH\Views\admin\form.php on line 62.
+ 1 APPPATH\Views\admin\form.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 5 APPPATH\Controllers\Posting.php(133): view('admin/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:35:06 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Posting.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:35:27 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Posting.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:45:08 --> Undefined variable $admin
+in APPPATH\Views\admin\form.php on line 62.
+ 1 APPPATH\Views\admin\form.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 5 APPPATH\Controllers\Posting.php(120): view('admin/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:49:30 --> Undefined variable $data
+in APPPATH\Views\admin\form.php on line 62.
+ 1 APPPATH\Views\admin\form.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 5 APPPATH\Controllers\Posting.php(120): view('admin/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:50:28 --> Undefined variable $data
+in APPPATH\Views\admin\form.php on line 62.
+ 1 APPPATH\Views\admin\form.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 5 APPPATH\Controllers\Posting.php(120): view('admin/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:55:01 --> Undefined variable $admin
+in APPPATH\Views\admin\form.php on line 62.
+ 1 APPPATH\Views\admin\form.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 5 APPPATH\Controllers\Posting.php(120): view('admin/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:56:34 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Posting.php on line 105.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 06:57:07 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Posting.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 07:03:58 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Posting.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 07:05:04 --> Illegal offset type
+in APPPATH\Controllers\Posting.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 07:05:18 --> Illegal offset type
+in APPPATH\Controllers\Posting.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 07:05:20 --> Illegal offset type
+in APPPATH\Controllers\Posting.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-11-25 07:06:38 --> Array to string conversion
+in APPPATH\Controllers\Posting.php on line 114.
+ 1 APPPATH\Controllers\Posting.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')

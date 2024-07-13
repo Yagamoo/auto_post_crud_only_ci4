@@ -1,0 +1,569 @@
+INFO - 2024-01-08 07:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-08 07:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-08 07:10:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Posting.php on line 162.
+ 1 APPPATH\Controllers\Posting.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web-uas_present\\app\\Controllers\\Posting.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 07:19:15 --> syntax error, unexpected single-quoted string "post", expecting ")"
+in APPPATH\Controllers\Posting.php on line 105.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('posting/form_proses', 'post')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('posting/form_proses')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('posting/form_proses')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 07:20:03 --> syntax error, unexpected token "`", expecting ")"
+in APPPATH\Controllers\Posting.php on line 105.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('posting/form_proses', 'post')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('posting/form_proses')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('posting/form_proses')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 07:21:16 --> Undefined constant "App\Controllers\this"
+in APPPATH\Controllers\Posting.php on line 105.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->form_proses()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 07:22:41 --> Invalid file: "/posting.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/posting.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/posting', [], true)
+ 3 APPPATH\Controllers\Posting.php(105): view('/posting')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->form_proses()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 07:53:36 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Posting.php on line 200.
+ 1 APPPATH\Controllers\Posting.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web-uas_present\\app\\Controllers\\Posting.php', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 07:53:52 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Posting.php on line 200.
+ 1 APPPATH\Controllers\Posting.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web-uas_present\\app\\Controllers\\Posting.php', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 09:50:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Posting.php on line 200.
+ 1 APPPATH\Controllers\Posting.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web-uas_present\\app\\Controllers\\Posting.php', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 09:51:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Posting.php on line 200.
+ 1 APPPATH\Controllers\Posting.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web-uas_present\\app\\Controllers\\Posting.php', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 09:51:27 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Posting.php on line 200.
+ 1 APPPATH\Controllers\Posting.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web-uas_present\\app\\Controllers\\Posting.php', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 10:00:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Posting.php on line 203.
+ 1 APPPATH\Controllers\Posting.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web-uas_present\\app\\Controllers\\Posting.php', 203)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 10:01:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Posting.php on line 203.
+ 1 APPPATH\Controllers\Posting.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web-uas_present\\app\\Controllers\\Posting.php', 203)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 10:02:33 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Posting.php on line 203.
+ 1 APPPATH\Controllers\Posting.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web-uas_present\\app\\Controllers\\Posting.php', 203)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 10:02:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Posting.php on line 203.
+ 1 APPPATH\Controllers\Posting.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web-uas_present\\app\\Controllers\\Posting.php', 203)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 10:02:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Posting.php on line 204.
+ 1 APPPATH\Controllers\Posting.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web-uas_present\\app\\Controllers\\Posting.php', 204)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 10:05:17 --> Undefined variable $data
+in APPPATH\Views\admin\dashboard.php on line 75.
+ 1 APPPATH\Views\admin\dashboard.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\web-uas_present\\app\\Views\\admin\\dashboard.php', 75)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas_present\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Posting.php(254): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 10:07:38 --> Undefined variable $data
+in APPPATH\Views\admin\dashboard.php on line 75.
+ 1 APPPATH\Views\admin\dashboard.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\web-uas_present\\app\\Views\\admin\\dashboard.php', 75)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas_present\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Posting.php(228): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 10:07:40 --> Undefined variable $data
+in APPPATH\Views\admin\dashboard.php on line 75.
+ 1 APPPATH\Views\admin\dashboard.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\web-uas_present\\app\\Views\\admin\\dashboard.php', 75)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas_present\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Posting.php(228): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 10:14:23 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\dashboard.php on line 78.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\Posting.php(272): view('admin/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 10:16:12 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\dashboard.php on line 79.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\Posting.php(272): view('admin/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 10:17:57 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\dashboard.php on line 112.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\Posting.php(272): view('admin/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 10:19:07 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\dashboard.php on line 119.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\Posting.php(272): view('admin/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 10:43:01 --> Undefined variable $data_terbaru
+in APPPATH\Controllers\Posting.php on line 267.
+ 1 APPPATH\Controllers\Posting.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_terbaru', 'C:\\xampp\\htdocs\\web-uas_present\\app\\Controllers\\Posting.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->prosesEdit()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+INFO - 2024-01-08 11:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-08 11:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-08 11:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-08 11:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-08 11:09:29 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1752.
+ 1 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray('P_010', 'update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], 'P_010')
+ 3 APPPATH\Controllers\Posting.php(222): CodeIgniter\Model->update([...], 'P_010')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 11:10:52 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Posting.php on line 170.
+ 1 APPPATH\Controllers\Posting.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web-uas_present\\app\\Controllers\\Posting.php', 170)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 11:13:45 --> Undefined variable $data_terbaru
+in APPPATH\Views\admin\dashboard.php on line 40.
+ 1 APPPATH\Views\admin\dashboard.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_terbaru', 'C:\\xampp\\htdocs\\web-uas_present\\app\\Views\\admin\\dashboard.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas_present\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Posting.php(224): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 11:13:46 --> Undefined variable $data_terbaru
+in APPPATH\Views\admin\dashboard.php on line 40.
+ 1 APPPATH\Views\admin\dashboard.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_terbaru', 'C:\\xampp\\htdocs\\web-uas_present\\app\\Views\\admin\\dashboard.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas_present\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Posting.php(224): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas_present\\public\\index.php')
+INFO - 2024-01-08 11:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-08 11:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-08 11:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-08 11:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-08 12:09:13 --> Undefined variable $data_terbaru
+in APPPATH\Views\admin\dashboard.php on line 40.
+ 1 APPPATH\Views\admin\dashboard.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_terbaru', 'E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\app\\Views\\admin\\dashboard.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Posting.php(159): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 12:10:32 --> Undefined variable $admin
+in APPPATH\Controllers\Posting.php on line 182.
+ 1 APPPATH\Controllers\Posting.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\app\\Controllers\\Posting.php', 182)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->prosesEdit()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 12:12:54 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Posting.php(152): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 12:14:04 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Posting.php(152): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\public\\index.php')
+ERROR - 2024-01-08 12:18:12 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`web_uas_2`.`post`, CONSTRAINT `id_admin` FOREIGN KEY (`id_admin`) REFERENCES `admin` (`id_admin`)) in E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `post` S...', 0)
+#1 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `post` S...')
+#2 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `post` S...')
+#3 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` S...', Array, false)
+#4 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\XAMPP\htdocs\web_uas_2\web-uas_present\app\Controllers\Posting.php(155): CodeIgniter\Model->update('1', Array)
+#8 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(942): App\Controllers\Posting->update()
+#9 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+#10 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\web_uas_2\web-uas_present\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-08 12:18:12 --> Cannot add or update a child row: a foreign key constraint fails (`web_uas_2`.`post`, CONSTRAINT `id_admin` FOREIGN KEY (`id_admin`) REFERENCES `admin` (`id_admin`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `id_posting` = :id_posting:, `kode_posting` = :kode_posting:, `id_admin` = :id_admin:, `id_produk` = :id_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:
+WHERE `post`.`id_posting` IN :post.id_posting:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Posting.php(155): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\public\\index.php')
+ERROR - 2024-01-08 12:18:14 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`web_uas_2`.`post`, CONSTRAINT `id_admin` FOREIGN KEY (`id_admin`) REFERENCES `admin` (`id_admin`)) in E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `post` S...', 0)
+#1 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `post` S...')
+#2 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `post` S...')
+#3 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` S...', Array, false)
+#4 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\XAMPP\htdocs\web_uas_2\web-uas_present\app\Controllers\Posting.php(155): CodeIgniter\Model->update('1', Array)
+#8 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(942): App\Controllers\Posting->update()
+#9 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+#10 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\web_uas_2\web-uas_present\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-08 12:18:14 --> Cannot add or update a child row: a foreign key constraint fails (`web_uas_2`.`post`, CONSTRAINT `id_admin` FOREIGN KEY (`id_admin`) REFERENCES `admin` (`id_admin`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `id_posting` = :id_posting:, `kode_posting` = :kode_posting:, `id_admin` = :id_admin:, `id_produk` = :id_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:
+WHERE `post`.`id_posting` IN :post.id_posting:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Posting.php(155): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\public\\index.php')
+ERROR - 2024-01-08 12:18:54 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`web_uas_2`.`post`, CONSTRAINT `id_admin` FOREIGN KEY (`id_admin`) REFERENCES `admin` (`id_admin`)) in E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `post` S...', 0)
+#1 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `post` S...')
+#2 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `post` S...')
+#3 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` S...', Array, false)
+#4 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\XAMPP\htdocs\web_uas_2\web-uas_present\app\Controllers\Posting.php(155): CodeIgniter\Model->update('1', Array)
+#8 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(942): App\Controllers\Posting->update()
+#9 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+#10 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\web_uas_2\web-uas_present\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-08 12:18:54 --> Cannot add or update a child row: a foreign key constraint fails (`web_uas_2`.`post`, CONSTRAINT `id_admin` FOREIGN KEY (`id_admin`) REFERENCES `admin` (`id_admin`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `id_posting` = :id_posting:, `kode_posting` = :kode_posting:, `id_admin` = :id_admin:, `id_produk` = :id_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:
+WHERE `post`.`id_posting` IN :post.id_posting:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Posting.php(155): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\public\\index.php')
+ERROR - 2024-01-08 12:21:00 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `post` S...', 0)
+#1 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `post` S...')
+#2 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `post` S...')
+#3 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` S...', Array, false)
+#4 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\XAMPP\htdocs\web_uas_2\web-uas_present\app\Controllers\Posting.php(155): CodeIgniter\Model->update('3', Array)
+#8 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(942): App\Controllers\Posting->update()
+#9 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+#10 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\web_uas_2\web-uas_present\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-08 12:21:00 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `id_posting` = :id_posting:, `kode_posting` = :kode_posting:, `id_admin` = :id_admin:, `id_produk` = :id_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:
+WHERE `post`.`id_posting` IN :post.id_posting:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Posting.php(155): CodeIgniter\Model->update('3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\public\\index.php')
+ERROR - 2024-01-08 12:22:58 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `post` S...', 0)
+#1 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `post` S...')
+#2 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `post` S...')
+#3 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` S...', Array, false)
+#4 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\XAMPP\htdocs\web_uas_2\web-uas_present\app\Controllers\Posting.php(155): CodeIgniter\Model->update('5', Array)
+#8 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(942): App\Controllers\Posting->update()
+#9 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+#10 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\web_uas_2\web-uas_present\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-08 12:22:58 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `id_posting` = :id_posting:, `kode_posting` = :kode_posting:, `id_admin` = :id_admin:, `id_produk` = :id_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:
+WHERE `post`.`id_posting` IN :post.id_posting:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Posting.php(155): CodeIgniter\Model->update('5', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 12:23:22 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Posting.php on line 155.
+ 1 APPPATH\Controllers\Posting.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\app\\Controllers\\Posting.php', 155)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\public\\index.php')
+ERROR - 2024-01-08 12:23:42 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `post` S...', 0)
+#1 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `post` S...')
+#2 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `post` S...')
+#3 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` S...', Array, false)
+#4 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\XAMPP\htdocs\web_uas_2\web-uas_present\app\Controllers\Posting.php(155): CodeIgniter\Model->update('5', Array)
+#8 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(942): App\Controllers\Posting->update()
+#9 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+#10 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\web_uas_2\web-uas_present\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-08 12:23:42 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `id_posting` = :id_posting:, `kode_posting` = :kode_posting:, `id_admin` = :id_admin:, `id_produk` = :id_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:
+WHERE `post`.`id_posting` IN :post.id_posting:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Posting.php(155): CodeIgniter\Model->update('5', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 12:35:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Posting.php on line 175.
+ 1 APPPATH\Controllers\Posting.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\app\\Controllers\\Posting.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->prosesEdit()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 12:35:26 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Posting.php on line 151.
+ 1 APPPATH\Controllers\Posting.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\app\\Controllers\\Posting.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\public\\index.php')
+CRITICAL - 2024-01-08 12:35:29 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Posting.php on line 151.
+ 1 APPPATH\Controllers\Posting.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\app\\Controllers\\Posting.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\public\\index.php')
+INFO - 2024-01-08 12:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-08 12:35:58 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`web_uas_2`.`post`, CONSTRAINT `id_admin` FOREIGN KEY (`id_admin`) REFERENCES `admin` (`id_admin`)) in E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `post` S...', 0)
+#1 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `post` S...')
+#2 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `post` S...')
+#3 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` S...', Array, false)
+#4 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\XAMPP\htdocs\web_uas_2\web-uas_present\app\Controllers\Posting.php(151): CodeIgniter\Model->update('4', Array)
+#8 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(942): App\Controllers\Posting->update()
+#9 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+#10 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\web_uas_2\web-uas_present\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-08 12:35:58 --> Cannot add or update a child row: a foreign key constraint fails (`web_uas_2`.`post`, CONSTRAINT `id_admin` FOREIGN KEY (`id_admin`) REFERENCES `admin` (`id_admin`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `kode_posting` = :kode_posting:, `id_admin` = :id_admin:, `id_produk` = :id_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:
+WHERE `post`.`id_posting` IN :post.id_posting:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Posting.php(151): CodeIgniter\Model->update('4', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\public\\index.php')
+ERROR - 2024-01-08 12:41:40 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`web_uas_2`.`post`, CONSTRAINT `id_admin` FOREIGN KEY (`id_admin`) REFERENCES `admin` (`id_admin`)) in E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `post` S...', 0)
+#1 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `post` S...')
+#2 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `post` S...')
+#3 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` S...', Array, false)
+#4 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\XAMPP\htdocs\web_uas_2\web-uas_present\app\Controllers\Posting.php(151): CodeIgniter\Model->update('3', Array)
+#8 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(942): App\Controllers\Posting->update()
+#9 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+#10 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\web_uas_2\web-uas_present\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\web_uas_2\web-uas_present\system\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-08 12:41:40 --> Cannot add or update a child row: a foreign key constraint fails (`web_uas_2`.`post`, CONSTRAINT `id_admin` FOREIGN KEY (`id_admin`) REFERENCES `admin` (`id_admin`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `kode_posting` = :kode_posting:, `id_admin` = :id_admin:, `id_produk` = :id_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:
+WHERE `post`.`id_posting` IN :post.id_posting:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Posting.php(151): CodeIgniter\Model->update('3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\XAMPP\\htdocs\\web_uas_2\\web-uas_present\\public\\index.php')

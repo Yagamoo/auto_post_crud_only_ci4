@@ -1,0 +1,283 @@
+CRITICAL - 2023-12-07 06:00:11 --> Undefined array key "id_admin"
+in APPPATH\Controllers\Posting.php on line 125.
+ 1 APPPATH\Controllers\Posting.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_admin"', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:07:57 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Posting.php(147): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:08:41 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\web-uas\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('REPLACE INTO `post` (`admin`, `produk`, `visual_produk`, `cover_latter`, `desk_produk`, `tanggal`, `jam`) VALUES (:admin:, :produk:, :visual_produk:, :cover_latter:, :desk_produk:, :tanggal:, :jam:)', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2396): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `post` (`admin`, `produk`, `visual_produk`, `cover_latter`, `desk_produk`, `tanggal`, `jam`) VALUES (:admin:, :produk:, :visual_produk:, :cover_latter:, :desk_produk:, :tanggal:, :jam:)', [...], false)
+ 7 SYSTEMPATH\Model.php(485): CodeIgniter\Database\BaseBuilder->replace([...])
+ 8 SYSTEMPATH\BaseModel.php(1155): CodeIgniter\Model->doReplace([...], false)
+ 9 APPPATH\Controllers\Posting.php(147): CodeIgniter\BaseModel->replace([...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:13:20 --> syntax error, unexpected token "}"
+in APPPATH\Models\AmbilModel.php on line 67.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\web-uas\\app\\Models\\AmbilModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AmbilModel')
+ 3 APPPATH\Controllers\Posting.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AmbilModel')
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Posting->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:23:51 --> Undefined variable $admin
+in APPPATH\Views\admin\form.php on line 62.
+ 1 APPPATH\Views\admin\form.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 5 APPPATH\Controllers\Posting.php(141): view('admin/form')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:26:14 --> Undefined array key "cover_latter"
+in APPPATH\Controllers\Posting.php on line 123.
+ 1 APPPATH\Controllers\Posting.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cover_latter"', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:26:20 --> Undefined variable $admin
+in APPPATH\Views\admin\form.php on line 62.
+ 1 APPPATH\Views\admin\form.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 5 APPPATH\Controllers\Posting.php(141): view('admin/form')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:28:46 --> The route for "posting" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('posting')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Posting.php(141): redirect('posting')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:42:13 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\web-uas\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...], false)
+ 7 APPPATH\Models\AmbilModel.php(68): CodeIgniter\Database\BaseBuilder->update([...])
+ 8 APPPATH\Controllers\Posting.php(175): App\Models\AmbilModel->ubah([...], '7')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:43:33 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\web-uas\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:
+WHERE 0 = :0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:
+WHERE 0 = :0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:', [...], false)
+ 7 APPPATH\Models\AmbilModel.php(69): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 8 APPPATH\Controllers\Posting.php(175): App\Models\AmbilModel->ubah([...], '7')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:43:36 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\web-uas\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:
+WHERE 0 = :0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:
+WHERE 0 = :0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:', [...], false)
+ 7 APPPATH\Models\AmbilModel.php(69): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 8 APPPATH\Controllers\Posting.php(175): App\Models\AmbilModel->ubah([...], '7')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:49:45 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\web-uas\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...], false)
+ 7 APPPATH\Models\AmbilModel.php(68): CodeIgniter\Database\BaseBuilder->update([...])
+ 8 APPPATH\Controllers\Posting.php(175): App\Models\AmbilModel->ubah([...], '7')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:49:53 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\web-uas\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...], false)
+ 7 APPPATH\Models\AmbilModel.php(68): CodeIgniter\Database\BaseBuilder->update([...])
+ 8 APPPATH\Controllers\Posting.php(175): App\Models\AmbilModel->ubah([...], '7')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:53:22 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\web-uas\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...], false)
+ 7 APPPATH\Models\AmbilModel.php(68): CodeIgniter\Database\BaseBuilder->update([...])
+ 8 APPPATH\Controllers\Posting.php(175): App\Models\AmbilModel->ubah([...], '7')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:53:54 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\web-uas\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...], false)
+ 7 APPPATH\Models\AmbilModel.php(68): CodeIgniter\Database\BaseBuilder->update([...])
+ 8 APPPATH\Controllers\Posting.php(175): App\Models\AmbilModel->ubah([...], '7')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:54:00 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\web-uas\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...], false)
+ 7 APPPATH\Models\AmbilModel.php(68): CodeIgniter\Database\BaseBuilder->update([...])
+ 8 APPPATH\Controllers\Posting.php(175): App\Models\AmbilModel->ubah([...], '8')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:55:02 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\web-uas\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...], false)
+ 7 APPPATH\Models\AmbilModel.php(68): CodeIgniter\Database\BaseBuilder->update([...])
+ 8 APPPATH\Controllers\Posting.php(175): App\Models\AmbilModel->ubah([...], '8')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:55:39 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\web-uas\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...], false)
+ 7 APPPATH\Models\AmbilModel.php(68): CodeIgniter\Database\BaseBuilder->update([...])
+ 8 APPPATH\Controllers\Posting.php(175): App\Models\AmbilModel->ubah([...], '8', 'id_posting')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:55:50 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\web-uas\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...], false)
+ 7 APPPATH\Models\AmbilModel.php(68): CodeIgniter\Database\BaseBuilder->update([...])
+ 8 APPPATH\Controllers\Posting.php(175): App\Models\AmbilModel->ubah([...], 'id_posting', '8')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-07 06:58:33 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\web-uas\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `post` SET `admin` = :admin:, `produk` = :produk:, `visual_produk` = :visual_produk:, `cover_latter` = :cover_latter:, `desk_produk` = :desk_produk:, `tanggal` = :tanggal:, `jam` = :jam:, `id_posting` = :id_posting:', [...], false)
+ 7 APPPATH\Models\AmbilModel.php(68): CodeIgniter\Database\BaseBuilder->update([...])
+ 8 APPPATH\Controllers\Posting.php(175): App\Models\AmbilModel->ubah([...], '2')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')

@@ -1,0 +1,284 @@
+CRITICAL - 2023-12-04 04:54:10 --> Undefined variable $admin
+in APPPATH\Views\admin\form.php on line 62.
+ 1 APPPATH\Views\admin\form.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 5 APPPATH\Controllers\Posting.php(142): view('admin/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 04:57:02 --> Undefined variable $produk
+in APPPATH\Views\admin\form.php on line 71.
+ 1 APPPATH\Views\admin\form.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php', 71)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 5 APPPATH\Controllers\Posting.php(145): view('admin/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 04:58:05 --> Undefined array key "id_admin"
+in APPPATH\Controllers\Posting.php on line 125.
+ 1 APPPATH\Controllers\Posting.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_admin"', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 04:58:20 --> Undefined array key "id_admin"
+in APPPATH\Controllers\Posting.php on line 125.
+ 1 APPPATH\Controllers\Posting.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_admin"', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 04:58:33 --> Undefined array key "cover_latter"
+in APPPATH\Controllers\Posting.php on line 127.
+ 1 APPPATH\Controllers\Posting.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cover_latter"', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 04:58:35 --> Undefined array key "cover_latter"
+in APPPATH\Controllers\Posting.php on line 127.
+ 1 APPPATH\Controllers\Posting.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cover_latter"', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 04:58:43 --> Undefined array key "cover_latter"
+in APPPATH\Controllers\Posting.php on line 127.
+ 1 APPPATH\Controllers\Posting.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cover_latter"', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 04:58:48 --> Undefined array key "desk_produk"
+in APPPATH\Controllers\Posting.php on line 128.
+ 1 APPPATH\Controllers\Posting.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "desk_produk"', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 04:58:59 --> Undefined array key "id_admin"
+in APPPATH\Controllers\Posting.php on line 125.
+ 1 APPPATH\Controllers\Posting.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_admin"', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 04:59:35 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\form.php on line 72.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 4 APPPATH\Controllers\Posting.php(148): view('admin/form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 04:59:37 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\form.php on line 72.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 4 APPPATH\Controllers\Posting.php(148): view('admin/form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 06:13:36 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\form.php on line 72.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 4 APPPATH\Controllers\Posting.php(148): view('admin/form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 06:16:55 --> Undefined array key "id_admin"
+in APPPATH\Controllers\Posting.php on line 126.
+ 1 APPPATH\Controllers\Posting.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_admin"', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 126)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 06:17:06 --> Undefined array key "cover_latter"
+in APPPATH\Controllers\Posting.php on line 128.
+ 1 APPPATH\Controllers\Posting.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cover_latter"', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 06:17:17 --> Undefined variable $default_admin
+in APPPATH\Controllers\Posting.php on line 135.
+ 1 APPPATH\Controllers\Posting.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default_admin', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 06:17:35 --> Undefined array key "cover_latter"
+in APPPATH\Controllers\Posting.php on line 128.
+ 1 APPPATH\Controllers\Posting.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cover_latter"', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 06:17:45 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\form.php on line 72.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 4 APPPATH\Controllers\Posting.php(148): view('admin/form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 06:18:05 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\form.php on line 72.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 4 APPPATH\Controllers\Posting.php(148): view('admin/form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 06:18:36 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\form.php on line 72.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 4 APPPATH\Controllers\Posting.php(149): view('admin/form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 06:22:36 --> Attempt to read property "id_produk" on string
+in APPPATH\Views\admin\form.php on line 72.
+ 1 APPPATH\Views\admin\form.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_produk" on string', 'C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php', 72)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-uas\\app\\Views\\admin\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 5 APPPATH\Controllers\Posting.php(149): view('admin/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 06:23:02 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\form.php on line 72.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 4 APPPATH\Controllers\Posting.php(149): view('admin/form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 06:48:55 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\form.php on line 72.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 4 APPPATH\Controllers\Posting.php(149): view('admin/form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 06:52:36 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\form.php on line 72.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 4 APPPATH\Controllers\Posting.php(149): view('admin/form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 06:52:53 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\form.php on line 72.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/form', [], true)
+ 4 APPPATH\Controllers\Posting.php(149): view('admin/form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 06:55:42 --> Undefined array key "cover_latter"
+in APPPATH\Controllers\Posting.php on line 127.
+ 1 APPPATH\Controllers\Posting.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cover_latter"', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 06:56:36 --> Undefined array key "id_admin"
+in APPPATH\Controllers\Posting.php on line 125.
+ 1 APPPATH\Controllers\Posting.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_admin"', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 06:59:39 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\web-uas\system\Model.php on line 264
+in SYSTEMPATH\Database\BaseResult.php on line 389.
+ 1 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Posting.php(120): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 07:00:19 --> Undefined array key "id_admin"
+in APPPATH\Controllers\Posting.php on line 125.
+ 1 APPPATH\Controllers\Posting.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_admin"', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 07:22:21 --> Undefined array key "id_admin"
+in APPPATH\Controllers\Posting.php on line 125.
+ 1 APPPATH\Controllers\Posting.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_admin"', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
+CRITICAL - 2023-12-04 07:24:07 --> Undefined array key "id_admin"
+in APPPATH\Controllers\Posting.php on line 125.
+ 1 APPPATH\Controllers\Posting.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_admin"', 'C:\\xampp\\htdocs\\web-uas\\app\\Controllers\\Posting.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Posting->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-uas\\public\\index.php')
